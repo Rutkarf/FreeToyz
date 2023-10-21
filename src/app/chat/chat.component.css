@@ -1,0 +1,35 @@
+/* chat.component.css */
+
+/* Style pour le conteneur du chat */
+div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour chaque message */
+  div div {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style pour la zone de saisie du message */
+  input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  /* Style pour le bouton d'envoi */
+  button {
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Style pour le bouton d'envoi au survol */
+  button:hover {
+    background-color: #45a049;
+  }
